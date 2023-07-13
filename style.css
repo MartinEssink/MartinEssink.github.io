@@ -15,12 +15,18 @@ body{font-family:arial; font-size:14px; background-color: #111; width:100%;}
 
 .publication{padding: 10px; background-color: #555; margin-top: 20px;}
 .publication > h3 > a{color:#ddd;}
-.abs{text-align: justify; text-justify: inter-word; font-style: italic; margin-top: 10px; max-height: 51px; overflow: hidden;}
-.publication:hover > .abs{max-height: none; }
+.abs{text-align: justify; text-justify: inter-word; font-style: italic; margin-top: 10px; display:none;}
+.publication:hover > .abs{display:block; }
+
+.news{background-color: #855;}
+.thesis{background-color: #585;}
+.paper{background-color: #558;}
+
 
 #foot{width:100%; padding: 10px; }/*border-top: 2px solid #ddd;}*/
 #foot > p{margin: 10px; color: #ddd;}
 
 @media all and (max-width: 1000px) {
-	#container{width: 90%;}
+	#container{width: 90%; margin: 50px auto;}
+
 }
